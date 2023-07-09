@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(background3.jpg) no-repeat;
+    background: url(./img/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -39,6 +39,10 @@ header li {
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+}
+
+.presentation {
+    color: #ebebeb;
 }
 
 .navigation a::after {

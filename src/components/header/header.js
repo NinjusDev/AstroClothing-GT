@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-import logoAstro from './logo2.png';
-import shoppingCartIcon from './shopping-cart.png';
+import logoAstro from './img/logo2.png';
+import shoppingCartIcon from './img/shopping-cart.png';
 
 function Header() {
     return (
