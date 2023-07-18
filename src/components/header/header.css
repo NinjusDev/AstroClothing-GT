@@ -15,6 +15,7 @@ body {
     background: url(./img/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    backdrop-filter: blur(2px);
 }
 
 header {
@@ -32,6 +33,10 @@ header li {
     list-style: none;
 }
 
+.navigation {
+    padding-bottom: 30px;
+}
+
 .navigation a {
     position: relative;
     font-size: 1.1em;
@@ -39,10 +44,6 @@ header li {
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
-}
-
-.presentation {
-    color: #ebebeb;
 }
 
 .navigation a::after {
@@ -64,13 +65,17 @@ header li {
     transform: scaleX(1);
 }
 
+.navigation img {
+    height: 17px;
+    width: auto;
+}
+
 .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo img, h2 {
-    height: 27px;
+.logo h2 {
     font-size: 1.25em;
     padding-left: 5px;
     color: #fff;

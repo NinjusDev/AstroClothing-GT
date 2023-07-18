@@ -1,0 +1,89 @@
+/* Estiliza los enlaces <a> y agrega un margin-bottom para separarlos por debajo */
+.anchors a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+  
+.anchors a span {
+    font-weight: bold;
+}
+  
+.anchors a:hover {
+    text-decoration: underline;
+}
+  
+.general h1,
+.general h2,
+.general h4,
+.general h5,
+.general p {
+    margin-bottom: 10px;
+}
+  
+.img img {
+    float: left;
+    margin-right: 20px;
+    width: 350px;
+    height: auto;
+    background-color: white;
+}
+  
+.anchors, .info, .talle, .addtocart {
+    display: inline-block;
+    vertical-align: top;
+}
+  
+.discount span {
+    font-size: 10px;
+}
+  
+.info h2 {
+    font-size: 35px;
+}
+  
+.info h5 {
+    text-decoration: line-through;
+    font-size: 18px;
+}
+  
+.talle button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 0;
+}
+  
+.addtocart button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 0;
+}
+
+.general button {
+    justify-content: end;
+}
+
+@media screen(min-width: 575px;) {
+    img {
+        width: 100%;
+        height: a;
+    }
+}

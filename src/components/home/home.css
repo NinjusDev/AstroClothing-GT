@@ -18,14 +18,19 @@ body {
     text-align: center;
     width: 500px;
     height: auto;
+    color: #ebebeb;
 }
 
 .title-ast {
-    background: hsla(307, 93%, 84%, 1);
-    background: linear-gradient(90deg, hsla(307, 93%, 84%, 1) 0%, hsla(256, 96%, 44%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(307, 93%, 84%, 1) 0%, hsla(256, 96%, 44%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(307, 93%, 84%, 1) 0%, hsla(256, 96%, 44%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCB0F3", endColorstr="#3D05DD", GradientType=1 );
+    background: hsla(252, 35%, 41%, 1);
+
+    background: linear-gradient(90deg, hsla(252, 35%, 41%, 1) 19%, hsla(258, 57%, 60%, 1) 48%, hsla(270, 55%, 57%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(252, 35%, 41%, 1) 19%, hsla(258, 57%, 60%, 1) 48%, hsla(270, 55%, 57%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(252, 35%, 41%, 1) 19%, hsla(258, 57%, 60%, 1) 48%, hsla(270, 55%, 57%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#53448E", endColorstr="#825FD3", GradientType=1 );
     background-clip: text;
     color: transparent;
 }
